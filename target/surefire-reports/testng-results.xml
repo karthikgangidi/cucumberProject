@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[expected [Smartbazaar – World of Asian Foods] but found [Smartbazaa – World of Asian Foods]]]>
+    </line>
+    <line>
+      <![CDATA[Fail]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-03-04T13:06:56 GMT" name="All Test Suite" finished-at="2023-03-04T13:08:20 GMT" duration-ms="84166">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner1@5340477f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-03-04T13:06:56 GMT" name="Smart-bazaar" finished-at="2023-03-04T13:08:20 GMT" duration-ms="84166">
+      <class name="TestRunner.TestRunner1">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestRunner1@5340477f]" started-at="2023-03-04T13:06:56 GMT" name="setUpClass" finished-at="2023-03-04T13:06:58 GMT" duration-ms="1723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5c48b72c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner1@5340477f]" started-at="2023-03-04T13:06:58 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-04T13:07:28 GMT" duration-ms="29714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User want check the title of the application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test the title of the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[expected [Smartbazaar – World of Asian Foods] but found [Smartbazaa – World of Asian Foods]]]>
+            </line>
+            <line>
+              <![CDATA[Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner1@5340477f]" started-at="2023-03-04T13:07:28 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-04T13:07:56 GMT" duration-ms="28116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User wants to search the products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To check the functionality of the search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner1@5340477f]" started-at="2023-03-04T13:07:56 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-04T13:08:20 GMT" duration-ms="24332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User wants to search the products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To check the functionality of the search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner1@5340477f]" started-at="2023-03-04T13:08:20 GMT" name="tearDownClass" finished-at="2023-03-04T13:08:20 GMT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.TestRunner1 -->
+    </test> <!-- Smart-bazaar -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
